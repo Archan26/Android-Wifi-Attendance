@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Profile"
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        />
+
+    <item
+        android:title="Attendance"
+        android:id="@+id/nav_attend"
+        android:icon="@drawable/ic_list_black_24dp"
+        />
+
+    <item
+        android:title="History"
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_history_black_24dp"
+        />
+
+
+</menu>

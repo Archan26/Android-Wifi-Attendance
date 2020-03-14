@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Personal Information"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorBase"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/image"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="135dp"
+        android:text="Name: Archan Parmar"
+        android:textSize="18sp"
+        android:textColor="@color/colorBase"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="135dp"
+        android:text="DOB: 26.10.99"
+        android:textSize="18sp"
+        android:textColor="@color/colorBase"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="180dp"
+        android:textColor="@color/colorBase"
+        android:text="Blood Group: B+"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="135dp"
+        android:text="Aadhar No. 531417935126"
+        android:textSize="20sp"
+        android:textColor="@color/colorBase"
+        />
+
+</RelativeLayout>

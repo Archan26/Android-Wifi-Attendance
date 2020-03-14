@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".NewAttendance">
+
+    <TextView
+        android:id="@+id/studentList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:text="Students"
+        android:textSize="25sp"
+        android:textColor="@color/colorBase"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/connectionStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:text="Status"
+        android:textSize="25sp"
+        android:layout_below="@+id/studentList"
+        android:textColor="@color/colorBase"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wifi"
+        android:background="@drawable/button_rounded"
+        android:text="OFF"
+        android:textColor="@color/background"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/studentList"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/start"
+        android:background="@drawable/button_rounded"
+        android:text="Start"
+        android:textColor="@color/background"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/studentList"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        />
+
+    <ListView
+        android:id="@+id/studentListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start"
+        android:layout_marginTop="15dp"
+        android:divider="@color/background"
+        android:dividerHeight="10dp"
+        android:background="@color/colorBase"
+        />
+
+</RelativeLayout>

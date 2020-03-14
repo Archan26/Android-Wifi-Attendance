@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".absentDetails">
+
+    <TextView
+        android:id="@+id/abList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Position"
+        android:textSize="25sp"
+        android:textColor="@color/colorBase"
+        android:textAlignment="center"
+        />
+
+    <ListView
+        android:id="@+id/absentListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abList"
+        android:layout_marginTop="15dp"
+        android:divider="@drawable/list_round"
+        android:dividerHeight="10dp"
+        android:background="@color/colorBase"
+        />
+
+</RelativeLayout>
