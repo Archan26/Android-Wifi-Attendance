@@ -1,0 +1,3 @@
+# Android-Wifi-Attendance
+In the university attendance of the students is important but it’s time consuming process because it’s taken manually with pen and paper. Turn by turn students will raise their hand and professors have to mark their attendance in paper sheets. 
+We have decided to make a web application. This application would be used by students and professors. Professors can see the records of student’s attendance and can take attendance using web app. Students also can see their attendance through the application. Professors have to just click and select the slots and students have to connect with professor’s mobile hotspot.
